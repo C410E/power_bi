@@ -1,23 +1,5 @@
-/* globals.css */
-/* Estilos globais */
-
-/* Defina uma fonte padrão para todo o aplicativo */
 body {
-  font-family: Arial, sans-serif;
-}
-
-/* Remova a margem padrão do body e dos títulos */
-body, h1, h2, h3, p {
-  margin: 0;
-}
-
-/* Estilize os links */
-a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-/* Adicione uma cor de fundo para a página */
-html, body {
-  background-color: #f9f9f9;
+  background-color: rgb(42, 42, 42);
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
 }

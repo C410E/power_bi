@@ -1,7 +1,10 @@
+/* components/Main.module.css */
 .main {
- 
-  align-items: center;
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
   padding: 6rem;
-  min-height: 100vh;
+  min-height: 10vh;
 }
+
 

@@ -7,9 +7,9 @@ import Cabecalho from "./components/Header/Header";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <div className={styles.main}>
       <Cabecalho />
       <h1>Pdf reader</h1>
-    </main>
+    </div>
   );
 }
