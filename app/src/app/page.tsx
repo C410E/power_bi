@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import Cabecalho from "./components/Header/Header";
 //https://power-bi-lilac.vercel.app
 
 
@@ -7,6 +8,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Cabecalho />
       <h1>Pdf reader</h1>
     </main>
   );
