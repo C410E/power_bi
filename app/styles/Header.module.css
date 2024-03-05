@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Aumentei a intensidade da sombra */
+  box-shadow: 0 8px 12px rgb(0, 0, 0); /* Aumentei a intensidade da sombra */
 }
 
 .header h1 {
@@ -27,7 +27,8 @@
 }
 
 .header nav ul li {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  
 }
 
 .header nav ul li a {

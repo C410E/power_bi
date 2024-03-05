@@ -9,8 +9,8 @@ const Cabecalho = () => {
         <header className={styles.header}>
             <nav>
                 <ul>
-                    <li><Link href="/">Início <FaHome /></Link></li>
-                    <li><Link href="/sobre">Sobre<FaAlignJustify/></Link></li>
+                    <li><Link href="/"><FaHome /> Início </Link></li>
+                    <li><Link href="/sobre"><FaAlignJustify/>Sobre</Link></li>
                     <li><Link href="/contatos">Contato</Link></li>
                 </ul>
             </nav>

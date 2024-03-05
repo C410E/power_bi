@@ -1,0 +1,13 @@
+.container {
+    width: 400px;
+    height: 400px;
+    
+}
+
+.retangulo {
+    width: 450px; 
+    height: 200px; 
+    background-color: #232222; 
+    border-radius: 5px;
+    
+}
