@@ -1,8 +1,8 @@
 /* components/Main.module.css */
 .main {
-  display: flex;
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: center; /* Centraliza horizontalmente */
+  /* display: flex;
+  align-items: center; 
+  justify-content: center; */
   padding: 6rem;
   min-height: 10vh;
 }
