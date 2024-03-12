@@ -1,10 +1,11 @@
 import styles from "../../styles/Sobre.module.css"
+import "./globals.css";
 
 const Sobre = () => {
 return (
-    <div className={styles.sobre}>
+    <main className={styles.sobre}>
         sobre
-    </div>
+    </main>
 )
 }
 

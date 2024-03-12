@@ -12,6 +12,7 @@ const Cabecalho = () => {
                     <li><Link href="/"><FaHome /> Início </Link></li>
                     <li><Link href="/sobre"><FaAlignJustify/>Sobre</Link></li>
                     <li><Link href="/contatos">Contato</Link></li>
+                    <li><Link href="/login">Entrar</Link></li>
                 </ul>
             </nav>
         </header>

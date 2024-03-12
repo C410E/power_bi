@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^6.1.5",
+    "axios": "^1.6.7",
     "chart.js": "^4.4.2",
+    "emotion": "^11.0.0",
     "faker": "^6.6.6",
     "next": "14.1.0",
     "react": "^18",
