@@ -2,7 +2,8 @@ import styles from "./page.module.css";
 import Cabecalho from "./components/Header/Header";
 import Chart from "./components/chart/Chart";
 import Circulo from "./components/chart/Doughnut";
-import LineChart from "./components/chart/LineChart"
+import LineChart from "./components/chart/LineChart";
+import AuthContext from "./contexts/Auth";
 //https://power-bi-lilac.vercel.app
 
 
@@ -11,10 +12,12 @@ import LineChart from "./components/chart/LineChart"
 export default function Home() {
   return (
     <div className={styles.main}>
+  
       <Cabecalho />
       <Chart />
       <Circulo />
       <LineChart />
+
     </div>
   );
 }

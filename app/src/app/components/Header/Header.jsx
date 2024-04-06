@@ -1,7 +1,12 @@
 import React from "react";
 import styles from "../../../../styles/Header.module.css";
 import Link from "next/link";
-import { FaHome, FaAlignJustify } from "react-icons/fa";
+import { 
+    FaHome, 
+    FaAlignJustify, 
+    FaUser,  
+    FaPhoneAlt
+} from "react-icons/fa";
 
 
 const Cabecalho = () => {
@@ -11,8 +16,8 @@ const Cabecalho = () => {
                 <ul>
                     <li><Link href="/"><FaHome /> Início </Link></li>
                     <li><Link href="/sobre"><FaAlignJustify/>Sobre</Link></li>
-                    <li><Link href="/contatos">Contato</Link></li>
-                    <li><Link href="/login">Entrar</Link></li>
+                    <li><Link href="/login"><FaUser/>Entrar</Link></li>
+                    <li><Link href="/contatos">Contatos</Link></li>
                 </ul>
             </nav>
         </header>

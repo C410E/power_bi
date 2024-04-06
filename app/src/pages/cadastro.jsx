@@ -52,8 +52,21 @@ const Cadastro = () => {
                     onChange={handleChange}
                     />
                 </label>
-                <button className={styles.button} type="submit">Cadastrar</button>
-                <p>Já possui conta? <Link href="/login">Login</Link></p>
+                <button 
+                    className={styles.button} 
+                    type="submit"
+                    >
+                        Cadastrar
+                    </button>
+                <p>
+                    Já possui conta? 
+                    <Link 
+                    className={styles.paragrafo} 
+                    href="/login"
+                    >
+                    Login
+                    </Link>
+                </p>
             </form>
         </div>
         </div>
